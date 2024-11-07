@@ -145,7 +145,7 @@ createBtn.onclick = function () {
   if (inputElement.value.length === 0) {
     return
   }
-  //так как сейчас мы должны отправлять не строчку, то объект, делаем след образом
+  //так как сейчас мы должны отправлять не строчку, а объект, то делаем след образом
   const newNote = {
     title: inputElement.value,
     completed: false,
