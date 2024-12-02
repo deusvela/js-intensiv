@@ -128,5 +128,5 @@ const people = [
 */
 
 const string = "Привет, как дела?";
-const reversed = string.split("").roReversed().join("");
+const reversed = string.split("").toReversed().join("");
 console.log(reversed);
